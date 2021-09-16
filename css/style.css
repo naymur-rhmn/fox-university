@@ -129,3 +129,49 @@ body {
 .offer-img {
     width: 100%;
 }
+
+/* intro with video */
+.section-bg {
+    background-image: url(../img/video-area-bg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    padding: 200px 0;
+}
+.section-bg::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: rgb(60,51,48);
+    background: linear-gradient(90deg, rgba(60,51,48,1) 0%, rgba(255,98,1,1) 100%);
+    opacity: .6;
+    z-index: -1;
+}
+.video-bg {
+    background-image: url(../img/video-thumb.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    position: relative;
+}
+.video-play-btn {
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    margin-right: -50px;
+    margin-top: -50px;
+    height: 100px;
+    width: 100px;
+    background-color: #ffffff;
+    color: #FD5F00;
+    font-size: 32px;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 50%;
+}
