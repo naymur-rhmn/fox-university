@@ -46,7 +46,13 @@ body {
 }
 .form-control:focus {
     box-shadow: none;
-  }
+}
+.nav-bg {
+    background-color: #0D1128;
+}
+.border-color .form-control.me-2.border-0.nav-bg.text-secondary:focus {
+    background: #0D1128;
+}
 .nav-btn {
     margin-right: 10px;
     margin-bottom: 2px;
@@ -95,4 +101,31 @@ body {
 .hero-btn:hover {
     color: #FD5F00;
     background-color: transparent;
+}
+/* quality */
+.orange-card {
+    background-color: #FD5F00;
+}
+.black-card {
+    background-color: #0E1229;
+}
+.quality .row>* {
+    padding-right: 0 !important; 
+    padding-left: 0 !important;
+}
+
+/* services */
+.service-icon {
+    font-size: 32px;
+    background-color: #FD5F00;
+    height: 75px;
+    width: 75px;
+    text-align: center;
+    line-height: 75px;
+    border-radius: 50%;
+    margin-top: 5px;
+    color: white;
+}
+.offer-img {
+    width: 100%;
 }
