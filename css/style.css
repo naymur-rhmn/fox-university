@@ -4,6 +4,10 @@
 /* base style */
 body {
     font-family: 'Poppins', sans-serif;
+    color: #8A8A8A;
+}
+h1,h2,h3,h4,h5 {
+    color: #010101;
 }
 
 /* header-top */
@@ -195,6 +199,9 @@ body {
 .sm h6 span {
     margin-right: 6px;
 }
+.course-card h2 {
+    color: #010101;
+}
 .boxed-btn {
     display: inline-block;
     text-decoration: none;
@@ -203,4 +210,59 @@ body {
     padding: 14px 28px;
     border-radius: 40px;
     margin-top: 14px;
+}
+
+/* certified teacher */
+.certified-bg {
+    background-color: #FAFAFA;
+    padding: 125px 0;
+}
+.t-bg-1 { background-image: url(../img/t-1.webp);}
+.t-bg-2 {background-image: url(../img/t-2.webp);}
+.t-bg-3 {background-image: url(../img/t-3.webp);}
+.t-bg-4 {background-image: url(../img/t-4.webp);}
+.bg {
+    height: 400px;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: .5s;
+}
+.bg:hover {
+    transform: scale(1.007);
+}
+.t-social-icon {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -45px;
+    transition: .5s;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+.t-social-icon a i.fab {
+    color: #FD5F00;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.t-info span {
+    color: #FD5F00;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+}
+.single-teacher-info:hover .t-social-icon {
+    visibility:visible;
+    opacity: 1;
+    transition: display 1s;
+    bottom: 10px;
+    transition: all 0.3s ease;
+}
+.t-info h3 {
+    transition: all 0.3s ease;
+}
+.single-teacher-info:hover .t-info h3 {
+    color: #FD5F00;
+    transition: all 0.3s ease-out;
 }
