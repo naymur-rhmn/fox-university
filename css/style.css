@@ -233,7 +233,7 @@ h1,h2,h3,h4,h5 {
 .t-bg-3 {background-image: url(../img/t-3.webp);}
 .t-bg-4 {background-image: url(../img/t-4.webp);}
 .bg {
-    height: 400px;
+    height: 450px;
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
