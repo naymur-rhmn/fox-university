@@ -113,6 +113,9 @@ h1,h2,h3,h4,h5 {
 .black-card {
     background-color: #0E1229;
 }
+.black-card h3, .orange-card h3 {
+    color: white;
+}
 .quality .row>* {
     padding-right: 0 !important; 
     padding-left: 0 !important;
